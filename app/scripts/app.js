@@ -23,14 +23,14 @@ angular.module('dropboxTaskpaperApp', [
         redirectTo: '/'
       });
   })
-  .value('DropboxClientId', '563mc3wfk1qd68q')
+  .value('DropboxClientId', 'gbn5vu9hwhjghsi')
   .value('DropboxRedirectUri', 'https://' + window.location.host + '/bower_components/ngDropbox/callback.html')
   .value('DropboxLocalStorageOAuthKey', 'ngDropbox.oauth')
   .config(function (DropboxProvider) {
-    DropboxProvider.config('563mc3wfk1qd68q',
+    DropboxProvider.config('gbn5vu9hwhjghsi',
       'https://' + window.location.host + '/bower_components/ngDropbox/callback.html');
   })
-  // .constant('DROPBOX_APP_KEY', '563mc3wfk1qd68q')
+  // .constant('DROPBOX_APP_KEY', 'gbn5vu9hwhjghsi')
   // .service('dropbox', function (DROPBOX_APP_KEY, $rootScope) {
   //   // Exposed for easy access in the browser console.
   //   var dropbox = new Dropbox.Client({
